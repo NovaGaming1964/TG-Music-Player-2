@@ -60,6 +60,8 @@
 
 ## Deploy Now
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fflask&envs=API_ID%2CAPI_HASH%2CBOT_TOKEN%2CSESSION_STRING%2CCHAT%2CLOG_GROUP%2CADMINS%2CARQ_API%2CSTREAM_URL%2CMAXIMUM_DURATION%2CREPLY_MESSAGE%2CADMIN_ONLY&optionalEnvs=ARQ_API%2CSTREAM_URL%2CMAXIMUM_DURATION%2CREPLY_MESSAGE%2CADMIN_ONLY&API_IDDesc=Get+from+my.telegram.org+or+%40UsetTGzKBot&API_HASHDesc=Get+from+my.telegram.org+or+%40UseTGzKBot&BOT_TOKENDesc=Get+From+%40Botfather&SESSION_STRINGDesc=Give+Your+String+Session&CHATDesc=+ID+of+ChannelGroup+where+the+bot+plays+Music.&LOG_GROUPDesc=Group+to+send+Playlist%2C+if+CHAT+is+a+Group&ADMINSDesc=ID+of+users+who+can+use+admin+commands.&ARQ_APIDesc=Get+it+for+free+from+%40ARQRobot%2C+This+is+required+for+%2Fdplay+to+work.&STREAM_URLDesc=Stream+URL+of+radio+station+or+a+youtube+live+video+to+stream+when+the+bot+starts+or+with+%2Fradio+command.+Some+Streaming+Links&MAXIMUM_DURATIONDesc=Maximum+duration+of+song+to+play.%28Optional%29&REPLY_MESSAGEDesc=A+reply+to+those+who+message+the+USER+account+in+PM.+Leave+it+blank+if+you+do+not+need+this+feature.&ADMIN_ONLYDesc=Pass+Y+If+you+want+to+make+%2Fplay+and+%2Fdplay+commands+only+for+admins+of+CHAT.+By+default+N+%2Fplay+and+%2Fdplay+is+available+for+all.)
+
 <details><summary><b>Deploy to Heroku</b></summary>
 <p>
 <br>
