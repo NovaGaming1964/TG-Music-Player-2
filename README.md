@@ -95,7 +95,7 @@
 
 ```sh
 git clone https://github.com/NovaGaming1964/TGVCMucisBot
-cd VCMusicPlayer
+cd TGVCMucisBot-main
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
 python3 main.py
