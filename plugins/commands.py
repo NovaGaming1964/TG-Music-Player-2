@@ -69,12 +69,12 @@ You can also use /dplay <song name> to play a song from Deezer.</b>
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/muzikupdet'),
-        InlineKeyboardButton('🤖 Other Bots', url='https://t.me/black_lightning_channel'),
+        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/a'),
+        InlineKeyboardButton('🤖 Other Bots', url='https://t.me/a'),
     ],
     [
-        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/Paramatin7'),
-        InlineKeyboardButton('🧩 Source', url='https://telegra.ph/file/2b775c9cba6898f6c1c68.png'),
+        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/ghostsniper7'),
+        InlineKeyboardButton('🧩 Source', url='https://telegra.ph/file/c91e23e5c7c1e9a21a5ee.jpg'),
     ],
     [
         InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -92,12 +92,12 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/muzikupdet'),
-            InlineKeyboardButton('🤖 Other Bots', url='https://t.me/black_lightning_channel'),
+            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/a'),
+            InlineKeyboardButton('🤖 Other Bots', url='https://t.me/a'),
         ],
         [
-            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/Paramatin7'),
-            InlineKeyboardButton('🧩 Source', url='https://telegra.ph/file/2b775c9cba6898f6c1c68.png'),
+            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/ghostsniper7'),
+            InlineKeyboardButton('🧩 Source', url='https://telegra.ph/file/c91e23e5c7c1e9a21a5ee.jpg'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
