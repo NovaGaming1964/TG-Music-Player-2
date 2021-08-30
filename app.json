@@ -1,0 +1,81 @@
+{
+  "name": "Telegram Voice Chat Music Player Bot ",
+  "description": "Telegram Bot to Play Audio in Telegram Voice Chats",
+  "logo": "https://telegra.ph/file/1a6a2202e5bf677096a5f.jpg",
+  "repository": "https://github.com/Paramatin-OP/TG-Music-Player",
+  "stack": "container",
+  "keywords": [
+    "telegram",
+    "bot",
+    "voicechat",
+    "music",
+    "python",
+    "pyrogram",
+    "pytgcalls",
+    "tgcalls",
+    "voip"
+  ],
+  "env": {
+    "API_ID": {
+      "description": "api_id part of your Telegram API Key from my.telegram.org/apps",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "api_hash part of your Telegram API Key from my.telegram.org/apps",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Bot token of Bot, get from @Botfather",
+      "required": true
+    },
+    "ARQ_API": {
+      "description": "get it for free from @ARQRobot",
+      "required": false
+    },
+    "SESSION_STRING": {
+      "description": "Session string, read the README to learn how to export it with Pyrogram",
+      "required": true
+    },
+    "CHAT": {
+      "description": "ID of Channel or Group where the Bot plays Music. You can play Music in only one chat(to Prevent Lag).",
+      "required": true
+    },
+    "LOG_GROUP": {
+      "description": "ID of the group to send playlist If CHAT is a Group, if channel thenleave blank",
+      "required": false
+    },
+    "ADMINS": {
+      "description": "ID of Users who can use Admin commands(for multiple users seperated by space)",
+      "required": true
+    },
+    "ADMIN_ONLY": {
+      "description": "Change it to 'N' if you want to make /play and /dplay available for everyone. By default only admins of CHAT can use it.",
+      "value": "Y",
+      "required": false
+    },
+    "MAXIMUM_DURATION": {
+      "description": "Maximum duration of song to be played using /play or /dplay",
+      "value": "30",
+      "required": false
+    },
+    "STREAM_URL": {
+      "description": "URL of Radio station or Youtube live video url to stream with /radio command. You can leave it coz i have already added Better playlist",
+      "value": "",
+      "required": false
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
