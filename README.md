@@ -1,10 +1,6 @@
 <h2 align="center"><b>Repo: <a href="https://github.com/NovaGaming1964/TGVCMucisBot">TG-VC-Music-Player</a></b></h2>
 <br>
-<p align="center"><a href="https://telegra.ph/file/c91e23e5c7c1e9a21a5ee.jpg"></a>
-</p> 
-<br>
 <p align="center"><a><img src="https://telegra.ph/file/8b5c468b8552549218d8c.jpg"></a></p> 
-</p>
 <br>
 # VCMusicPlayer v3.0
 
