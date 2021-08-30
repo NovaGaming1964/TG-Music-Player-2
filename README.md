@@ -1,6 +1,6 @@
-<h2 align="center"><b>Repo: <a href="https://github.com/Paramatin-OP/TG-Music-Player">TG-Music-Player</a></b></h2>
+<h2 align="center"><b>Repo: <a href="https://github.com/NovaGaming1964/TGVCMucisBot">TG-VC-Music-Player</a></b></h2>
 <br>
-<p align="center"><a href="https://t.me/MusicSupports"><img src="https://telegra.ph/file/1a6a2202e5bf677096a5f.jpg"></a></p> 
+<p align="center"><a href="https://telegra.ph/file/c91e23e5c7c1e9a21a5ee.jpg"></a></p> 
 <br>
 # VCMusicPlayer v3.0
 
@@ -94,7 +94,7 @@
 <br/>
 
 ```sh
-git clone https://github.com/LushaiMusic/VCMusicPlayer
+git clone https://github.com/NovaGaming1964/TGVCMucisBot
 cd VCMusicPlayer
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -125,8 +125,7 @@ python3 main.py
 
 ---
 
-#### Support
-Join Now Telegram [VC Music Live Sets](https://t.me/c/1481808444/131)
+
 
 ## Requirements
 
@@ -161,7 +160,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>
 ---
 
 ## Credits
-
+- [NINJA](https://github.com/NovaGaming1964) [Dev]
 - [Zaute Km](https://github.com/ZauteKm) [Dev]
 - [Dash Eclipse](https://github.com/dashezup) [For tgvc_userbot]
 - [Marshal X](https://github.com/MarshalX) [For pytgcalls]
