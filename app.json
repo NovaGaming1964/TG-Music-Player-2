@@ -1,8 +1,8 @@
 {
   "name": "Telegram Voice Chat Music Player Bot ",
-  "description": "Telegram Bot to Play Audio in Telegram Voice Chats",
-  "logo": "https://telegra.ph/file/1a6a2202e5bf677096a5f.jpg",
-  "repository": "https://github.com/Paramatin-OP/TG-Music-Player",
+  "description": "Telegram Bot to Play Music in Telegram Voice Chats",
+  "logo": "https://telegra.ph/file/c91e23e5c7c1e9a21a5ee.jpg",
+  "repository": "https://github.com/NovaGaming1964/TGVCMucisBot",
   "stack": "container",
   "keywords": [
     "telegram",
