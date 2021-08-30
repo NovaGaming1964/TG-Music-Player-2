@@ -28,8 +28,8 @@ from config import Config
 REPLY_MESSAGE=Config.REPLY_MESSAGE
 buttons = [
     [
-        InlineKeyboardButton('⚡️Support group', url='https://t.me/MusicSupports'),
-        InlineKeyboardButton('🧩Updates channel', url='https://t.me/muzikupdet'),
+        InlineKeyboardButton('⚡️Support group', url='https://t.me/a'),
+        InlineKeyboardButton('🧩Updates channel', url='https://t.me/a'),
     ],
     [
         InlineKeyboardButton('🎧Play Music', url=f'https://t.me/{USERNAME}'),
@@ -43,7 +43,7 @@ async def search(client, query):
         answers.append(
             InlineQueryResultArticle(
                 title="Heya",
-                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>You can't use this bot in your group, for that you have to Take permission from [Support group](https://MusicSupports) below.</b>", disable_web_page_preview=True),
+                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>You can't use this bot in your group, for that you have to Take permission from [Dev](https://MusicSupports) below.</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
@@ -92,7 +92,7 @@ async def search(client, query):
             answers.append(
             InlineQueryResultArticle(
                 title="Heya",
-                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>You can't use this bot in your group, for that you have to Take permission from [Support group](https://MusicSupports) below.</b>", disable_web_page_preview=True),
+                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>You can't use this bot in your group, for that you have to Take permission from [Dev](https://MusicSupports) below.</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
