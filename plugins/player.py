@@ -685,13 +685,13 @@ allcmd = ["play", "player", f"play@{U}", f"player@{U}"] + admincmds
 async def not_chat(_, m: Message):
     buttons = [
         [
-            InlineKeyboardButton('⚡️Updates Channel', url='https://t.me/muzikupdet'),
-            InlineKeyboardButton('🧩Support Group', url='https://musicSupports'),
+            InlineKeyboardButton('⚡️Updates Channel', url='https://t.me/a'),
+            InlineKeyboardButton('🧩Support Group', url='https://a'),
         ],
         [
-            InlineKeyboardButton('💞Developer', url='https://t.me/paramatin7'),
+            InlineKeyboardButton('💞Developer', url='https://t.me/ghostsniper7'),
             InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help')       
         ]
         ]
-    k=await m.reply("<b>You can't use this bot in this group, for that you have to take permission from my owner from [Support Group](https://t.me/Musicsupports) below.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
+    k=await m.reply("<b>You can't use this bot in this group, for that you have to take permission from my owner from [Dev](https://t.me/ghostsniper7) below.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
     await mp.delete(m)
